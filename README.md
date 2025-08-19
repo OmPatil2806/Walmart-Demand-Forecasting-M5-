@@ -26,3 +26,4 @@ Phase 5 – Model Training:
 We trained multiple models to forecast sales: LightGBM → Main model due to efficiency on large tabular datasets, XGBoost → Alternative boosting model for comparison, Random Forest Regressor → Baseline model, Hyperparameter tuning was done for LightGBM using cross-validation with a rolling window approach to respect time-series data.
 
 Phase 6 – Model Evaluation & Forecast Output: The final model was evaluated using: RMSE (Root Mean Square Error), WMAPE (Weighted Mean Absolute Percentage Error), MAPE (Mean Absolute Percentage Error), The model generated 28-day sales forecasts for each product-store combination. Visualizations were created to compare predicted vs actual sales and to display feature importance.
+
